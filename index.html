@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Formulário simples</title>
+</head>
+<body>
+	<h1>Cadastro</h1>
+
+	<form onsubmit="enviarFormulario(event)">
+		<div>
+			<label for="nome_cliente">Nome</label>
+			<input type="text" id="nome_cliente" name="nome_cliente">
+		</div>
+
+		<div>
+			<label for="email_cliente">E-mail</label>
+			<input type="email" id="email_cliente" name="email_cliente">
+		</div>
+
+		<div>
+			<label for="data_nascimento_cliente">Data de nascimento</label>
+			<input type="date" id="data_nascimento_cliente" name="data_nascimento_cliente">
+		</div>
+
+		<button type="submit">Enviar</button>
+	</form>
+
+	<section class="cadastros">
+		<h2>Cadastros enviados</h2>
+		<ul id="lista_cadastros"></ul>
+	</section>
+
+	<script src="form.js"></script>
+</body>
+</html>
