@@ -1,31 +1,18 @@
-# Formulário Simples — README (versão resumida)
+# Formulario simples
 
-Projeto de exemplo para iniciantes: formulário HTML + servidor Node.js mínimo.
+Projeto de formulario HTML com servidor Node.js.
 
-Arquivos principais:
+## Como executar
 
-- `index.html` — página com o formulário.
-- `form.js` — envia/consulta a API `/api/cadastros`.
-- `server.js` — servidor que serve a página e recebe os cadastros.
-
-Como rodar (modo rápido):
-
-1. Abra um terminal na pasta do projeto.
+1. Abra o terminal nesta pasta.
 2. Execute:
 
-    ```powershell
-    node server.js
-    ```
+```powershell
+node server.js
+```
 
-3. Abra o endereço mostrado pelo servidor (por exemplo `http://localhost:3000`).
+3.O servidor salva os cadastros no arquivo `cadastros.json` e informa no terminal quando o README.md e modificado.
 
-Nota sobre Live Server / Go Live: esta extensão só serve arquivos estáticos. Para que o envio funcione você precisa também rodar `node server.js`.
-
-Dados e segurança:
-
-- Os envios são salvos localmente em `cadastros.json` (não versionado — veja `.gitignore`).
-- Este é um exemplo educacional: não use dados sensíveis nem senhas reais.
-
-Comentários no código: o projeto contém comentários didáticos no formato `//citações// ... ////` para facilitar o aprendizado.
-
-Se quiser, eu adiciono `package.json` com `npm start` para rodar com `npm start`.
+- HTML5
+- CSS3
+- JavaScript
